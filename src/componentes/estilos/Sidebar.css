@@ -1,0 +1,15 @@
+.sidebarContainer{
+    height: 100vh;
+    background-color: black;
+    min-width: 240px;
+    color: white;
+}
+.Playlist{
+    margin: 5px 10px;
+
+}
+hr{
+    border: 1px solid smokegray;
+    width: 90%;
+    margin: 10px auto;
+}

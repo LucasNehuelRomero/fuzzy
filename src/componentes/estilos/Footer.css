@@ -1,0 +1,8 @@
+.footerContainer{
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100vw;
+    background-color: gray;
+    color: rgb(230, 230, 230);
+}

@@ -1,0 +1,7 @@
+.fuzzyBody{
+    display: flex;
+}
+
+.bodyContainer{
+    flex: 0,9;
+}
