@@ -1,15 +1,15 @@
-import { AiFillHome } from 'react-icons/fa'; //Paquete: "React icons"ice';
-import { AiOutlineSearch } from 'react-icons/fa';
-import { IoMusicalNotesSharp } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa'; //Paquete: "React icons"ice';
+import { FaSearch } from 'react-icons/fa';
+import { IoMusicalNotesSharp } from 'react-icons/io';
 import React from 'react'
 
 const Sidebar = () => {
     return (
         <div className="sidebarContainer">
            <h1>sidebar</h1> 
-        <div className="sidebarChoice" title="Inicio" icon={AiFillHome}></div>
-        <div className="sidebarChoice" title="Buscar" icon={AiOutlineSearch}></div>
-        <div className="sidebarChoice" title="Tu música" icon={IoMusicalNotesSharp}></div>
+        <div className="sidebarChoice" title="Inicio"><FaHome /></div>
+        <div className="sidebarChoice" title="Buscar"><FaSearch /></div>
+        <div className="sidebarChoice" title="Tu música"><IoMusicalNotesSharp /></div>
         <div className="Playlist"></div>
         <hr/>
         </div>

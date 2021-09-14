@@ -1,8 +1,22 @@
 .footerContainer{
+    display: flex;
     position: fixed;
     bottom: 0;
     height: 70px;
     width: 100vw;
     background-color: gray;
     color: rgb(230, 230, 230);
+    justify-content: space-between;
+}
+.footerLeft{
+     flex: 0,3;     /*ocupa 30% */
+     display: flex;
+     align-items: center;
+     max-width: 300px;
+}
+.footerRight{
+    flex: 0,3;      /*ocupa 30%*/
+}
+.footerCenter{
+    flex: 0,4;      /*ocupa 40%*/
 }

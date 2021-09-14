@@ -13,3 +13,17 @@ hr{
     width: 90%;
     margin: 10px auto;
 }
+.SiderbarChoices{
+    display: flex;
+    align-items: center;
+    color: rgb(214, 214, 214);
+    height: 40px;
+    cursor: pointer;
+    transition: 100ms color ease-in;
+}
+:hover{
+    color: white;
+}
+h5{
+    margin: 10px 0 0 20px;
+}
