@@ -1,4 +1,9 @@
 import React from 'react'
+import {FaPlay} from 'react-icons/fa';
+import {BsFillSkipEndFill} from 'react-icons/bs';
+import {BsFillSkipStartFill} from 'react-icons/bs';
+import {RiPlayListFill} from 'react-icons/ri';
+
 
 const Footer = () => {
     return (
@@ -10,8 +15,14 @@ const Footer = () => {
                     <p>Artista</p>
                 </div>
             </div>
-            <div className="footerRight">Right</div>
-            <div className="footerCenter">Center</div>
+            <div className="footerRight">
+                <RiPlayListFill />
+            </div>
+            <div className="footerCenter">
+            <BsFillSkipStartFill />
+            <FaPlay />
+            <BsFillSkipEndFill />
+            </div>
         </div>
     )
 }

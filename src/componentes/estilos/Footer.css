@@ -16,7 +16,16 @@
 }
 .footerRight{
     flex: 0,3;      /*ocupa 30%*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+    
 }
 .footerCenter{
     flex: 0,4;      /*ocupa 40%*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
 }

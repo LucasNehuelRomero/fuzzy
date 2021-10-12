@@ -2,7 +2,7 @@ import React from 'react'       //Snippets: rfce
 import Body from '../componentes/Body';
 import Sidebar from '../componentes/Sidebar';
 import Footer from '../componentes/Footer'
-function player() {
+function Player() {
     return (
         <div className="fuzzyBody">
             <Sidebar />
@@ -13,4 +13,4 @@ function player() {
     )
 }
 
-export default player
+export default Player

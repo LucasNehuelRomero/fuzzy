@@ -1,6 +1,6 @@
-import { FaHome } from 'react-icons/fa'; //Paquete: "React icons"ice';
+import { FaHome } from 'react-icons/fa'; //Paquete: "React icons";
 import { FaSearch } from 'react-icons/fa';
-import { IoMusicalNotesSharp } from 'react-icons/io';
+import { IoMusicalNotesSharp } from 'react-icons/io5';
 import React from 'react'
 
 const Sidebar = () => {
